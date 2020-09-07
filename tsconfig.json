@@ -14,7 +14,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "data-table": [
+        "dist/data-table/data-table",
+        "dist/data-table"
+      ],
+      "combobox": [
+        "dist/combobox/combobox",
+        "dist/combobox"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

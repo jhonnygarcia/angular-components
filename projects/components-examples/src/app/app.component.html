@@ -1,0 +1,19 @@
+<div class="container mt-3">
+  <div class="col">
+    <div class="row">
+      <div class="offset-3 col-6">
+        <p>
+          <button class="btn btn-primary btn-sm mr-3" (click)="show()">Mostrar</button>
+          <button class="btn btn-primary btn-sm" (click)="change()">Cambiar</button>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-3 col-6">
+        <unir-combobox [serverSide]="true"
+        (onServerData)="onServerCountry($event)"
+         [config]="configComboPais" [(ngModel)]="selected"></unir-combobox>
+      </div>
+    </div>
+  </div>
+</div>
