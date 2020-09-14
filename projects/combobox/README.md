@@ -1,4 +1,4 @@
-# @unir/combobox
+# unir-combobox
 
 
 Widget angular construido desde cero utilizando solo Bootstrap 4 CSS con API diseñadas para el ecosistema Angular. No depende de JavaScript de terceros.
@@ -14,12 +14,12 @@ Las unicas dos dependencias son Rxjs y Bootstrap
 
 ## Instalación
 
-* ```npm i --S --registry https://npm.preunir.net @unir/combobox```
+* ```npm i --S --registry https://npm.preunir.net unir-combobox```
 
 * ```import module```
 
 ```typescript
-    import { ComboboxModule } from '@unir/combobox';
+    import { ComboboxModule } from 'unir-combobox';
 
     @NgModule({
     declarations: [

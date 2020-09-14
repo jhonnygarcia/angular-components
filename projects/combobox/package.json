@@ -1,12 +1,13 @@
 {
-  "name": "@unir/combobox",
-  "version": "1.0.0",
+  "name": "unir-combobox",
+  "version": "1.0.1",
   "description": "Unir Angular Component",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.1.12",
     "@angular/core": "^9.1.12"
   },
+  "author": "Jhonny Garcia <jhonny.garcia@unir.net>",
   "dependencies": {
     "tslib": ">=1.10.0"
   }

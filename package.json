@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "dev": "ng serve components-examples",
     "build:datatable": "ng build data-table && cd dist/data-table && npm pack && npm publish --registry https://npm.preunir.net",
-    "build:combobox": "ng build combobox && cd dist/combobox && npm pack && npm publish --registry https://npm.preunir.net"
+    "build:combobox": "ng build combobox && cd dist/combobox && npm pack && npm publish --registry=https://npm.preunir.net",
+    "build-github:combobox": "ng build combobox && cd dist/combobox && npm pack && npm publish --access=public"
   },
   "private": true,
   "dependencies": {

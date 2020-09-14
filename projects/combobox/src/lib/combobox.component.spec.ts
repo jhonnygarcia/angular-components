@@ -71,7 +71,7 @@ describe('ComboboxComponent should ', () => {
 
     expect(first).not.toBeNull();
     first.click();
-    expect(component.selectedItem).not.toBeNull();
-    expect(component.selectedItem).toEqual(component.elements[0].value);
+    expect(component.currentPage).not.toBeNull();
+    expect(component.currentPage).toEqual(component.elements[0].value);
   });
 });

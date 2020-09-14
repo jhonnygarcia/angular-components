@@ -4,8 +4,6 @@ import { Component, OnInit, Input, Output, EventEmitter, HostListener, ElementRe
 import { ComboboxItem, ConfigureCombobox, ComboboxResponse } from './models';
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, FormControl } from '@angular/forms';
-import { env } from 'process';
-
 
 @Component({
   selector: 'unir-combobox',

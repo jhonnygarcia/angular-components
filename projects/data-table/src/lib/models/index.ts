@@ -1,3 +1,4 @@
+/*
 export enum DataOrderDirection {
     Ascending = 1,
     Descending = 2
@@ -36,3 +37,4 @@ export class DataLoadEvent {
     order: DataColumn;
     direction: DataOrderDirection;
 }
+*/
